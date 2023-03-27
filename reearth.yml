@@ -1,0 +1,84 @@
+id: reearth-PLATEAU-Fukuyama01
+name: 避難ルート検索システム
+version: 1.0.0
+extensions:
+  - id: evacuationroutesearch
+    type: widget
+    name: 避難ルート検索ウィジェット
+    schema:
+      groups:
+        - id: header
+          title: ヘッダー
+          fields:
+            - id: headIcon
+              type: url
+              title: アイコン
+              ui: image
+            - id: title
+              type: string
+              title: タイトル
+        - id: api
+          title: API
+          fields:
+            - id: url
+              type: string
+              title: ルートリクエストURL
+            - id: floodurl
+              type: string
+              title: 浸水情報リクエストURL
+            - id: routetoken
+              type: string
+              title: 避難ルートAPI トークン
+            - id: floodtoken
+              type: string
+              title: 浸水情報API トークン
+            - id: routeurl
+              type: string
+              title: 避難ルート保存URL
+  - id: timelineimage
+    type: widget
+    name: タイムラインイメージウィジェット
+    schema:
+      groups:
+        - id: header
+          title: ヘッダー
+          fields:
+          - id: prefix
+            type: string
+            title: 接頭辞
+          - id: interval
+            type: number
+            title: 時刻更新頻度
+            prefix: s
+            defaultValue: 3
+          - id: textColor
+            type: string
+            title: 文字色
+            ui: color
+          - id: bgColor
+            type: string
+            title: 背景色
+            ui: color
+        - id: imglist
+          title: Image
+          list: true
+          fields:
+          - id: start
+            type: string
+            title: Start time
+            ui: datetime
+          - id: stop
+            type: string
+            title: Stop time
+            ui: datetime
+          - id: image
+            type: url
+            title: Image
+            ui: image
+    widgetLayout:
+      extendable:
+        horizontally: true
+        vertically: true
+
+
+        
