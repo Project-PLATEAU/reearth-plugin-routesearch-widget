@@ -1,4 +1,5 @@
 # FY2022 Project PLATEAU UC22-041「住民個人の避難行動立案支援ツール」の成果物
+### reearth-plugin-routesearch-widget
 ### 避難ルート検索とタイムラインに連動する画像・時刻表示を行うRe:Earth用プラグイン
 ![](images/top.png)
 
@@ -277,7 +278,7 @@ Re:Earth上のタイムラインと連動して、Re:Earthの現在時刻から�
 - 本リポジトリの利用により生じた損失及び損害等について、国土交通省はいかなる責任も負わないものとします。
 
 ## 参考資料
-- （近日公開）技術検証レポート「WebGIS技術を用いた水害対策アプリケーションの開発」: https://www.mlit.go.jp/plateau/libraries/technical-reports/
+- 技術検証レポート「WebGIS技術を用いた水害対策アプリケーションの開発」: https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0011_ver01.pdf
 - PLATEAU Webサイト Use caseページ「ARを活用した災害リスク可視化ツール」：https://www.mlit.go.jp/plateau/use-case/uc22-026/
 - PLATEAU Webサイト Use caseページ「住民個人の避難行動立案支援ツール」：https://www.mlit.go.jp/plateau/use-case/uc22-041/
 - Re:Earth：[https://reearth.io/](https://reearth.io/)
